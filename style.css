@@ -1,0 +1,28 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+    position: relative;
+}
+body{
+    background: black;
+}
+.intro{
+position: absolute;
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 6%;
+box-shadow: 5px 5px 7px purple;
+}
+.word1{
+    position: absolute;
+    padding: 1em;
+    left: 42.5%;
+    top: 47%;
+    font-size: xx-large;
+    font-family: "comic sans ms";
+    text-decoration: none;
+    color: purple;
+}
+
+
