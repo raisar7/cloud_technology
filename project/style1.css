@@ -1,0 +1,89 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+    position: relative;
+}
+body{
+    background: rgb(53, 14, 53);
+}
+.navBar{
+    background-color:black;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+    }
+    .nav_link2{
+    color: white;
+    display: inline-block;
+    padding: 1em 7em;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 0em 4em;
+    }
+    .nav_link2:hover{
+    background-color:purple;
+    background-color: purple;
+    font-weight: 900;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 20%;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 0.5em;
+        margin: 3%;
+        position: relative;
+        margin-left: 7.7%;
+    }
+    .cardTitle{
+        padding: 0.5em;
+        color: rgb(255, 255, 255);
+    }
+    .cardIntro{
+        padding: 0.5em 1em;
+        color: rgb(255, 255, 255);
+        margin-bottom: 5em;
+    }
+    .cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(255, 254, 254);
+    display: block;
+    left: 0%;
+    right: 0%;
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    }
+    .cardLink:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bolder;
+    }
+.album{
+    width: 100%;
+}
+.next{
+    margin-left: 43.5em;
+    position: absolute;
+    bottom: 2.5%;
+    font-size: larger;
+    font-family: "comic sans ms";
+    font-weight: bold;
+
+}
+.bleh{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: large;
+   font-family: "comic sans ms";
+}
