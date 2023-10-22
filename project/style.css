@@ -1,0 +1,412 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+    position: relative;
+}
+body{
+    background: black;
+}
+.intro{
+position: absolute;
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 10%;
+box-shadow: 5px 5px 7px purple;
+}
+.word1{
+position: absolute;
+padding: 1em;
+left: 41.5%;
+top: 47%;
+font-size: xx-large;
+font-family: "comic sans ms";
+text-decoration: none;
+color: purple;
+margin-top: 16em;
+text-align: center;
+text-shadow: 3px 3px 3px purple;
+}
+.title1{
+background-color: purple;
+padding: 20px 0;
+color: black;
+text-align: center;
+}
+.navBar{
+background-color: rgb(53, 14, 53);
+color: rgb(0, 0, 0);
+position: fixed;
+top: 0%;
+left: 0%;
+right: 0%;
+overflow: hidden;
+}
+.nav_link2{
+color: white;
+display: inline-block;
+padding: 1em 0.6em;
+font-size: 1em;
+text-decoration: none;
+margin: 0em 4.1em;
+}
+.nav_link2:hover{
+background-color: black;
+background-color: black;
+font-weight: 900;
+}
+.card1{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+.titlename{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: 45px;
+font-family: "comic sans ms";
+}
+.image{
+width: 20%;
+left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image1{
+position: absolute;
+width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.info1{
+    color: black;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: -18em;
+    text-align: center;
+    margin-bottom: 25em;
+    font-size: 1.8em;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.divider{
+    height: 4em;
+}
+.card2{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+.titlename1{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+font-family: "comic sans ms";
+}
+.image2{
+ width: 20%;
+left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image3{
+    position: absolute;
+    width: 20%;
+    left: 93em;
+    margin-bottom: 4em;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.info2{
+        color: black;
+        margin-left: 17em;
+        margin-right: 17em;
+        margin-top: -18em;
+        text-align: center;
+        margin-bottom: 25em;
+        font-size: 1.8em;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+}
+
+.card3{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+.titlename1{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+font-family: "comic sans ms";
+}
+.image4{
+width: 20%;
+left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image5{
+position: absolute;
+width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.info3{
+    color: black;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: -18em;
+    text-align: center;
+    margin-bottom: 25em;
+    font-size: 1.8em;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.card4{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+.titlename1{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+font-family: "comic sans ms";
+}
+.image6{
+width: 20%;
+left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image7{
+position: absolute;
+ width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+box-shadow: 0px 0px 5px 5px black;
+}
+
+.card5{
+background-color: purple;
+height: 95%;
+width: 100%;
+ border-radius: 7px;
+}
+.titlename1{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+font-family: "comic sans ms";
+}
+.image8{
+width: 20%;
+ left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image9{
+position: absolute;
+width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.card6{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+.titlename1{
+ padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+font-family: "comic sans ms";
+}
+ .image10{
+width: 20%;
+left: 20%;
+ margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image11{
+position: absolute;
+width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+ box-shadow: 0px 0px 5px 5px black;
+}      
+.card7{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+.titlename1{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+font-family: "comic sans ms";
+}
+.image12{
+width: 20%;
+left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image13{
+position: absolute;
+width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.card8{
+background-color: purple;
+height: 95%;
+width: 100%;
+border-radius: 7px;
+}
+ .titlename1{
+padding: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: xx-large;
+ font-family: "comic sans ms";
+ }
+.image14{
+width: 20%;
+left: 20%;
+margin-bottom: 2em;
+margin-left: 2%;
+box-shadow: 0px 0px 5px 5px black;
+}
+.image15{
+position: absolute;
+width: 20%;
+left: 93em;
+margin-bottom: 2em;
+margin-right: 90%;
+box-shadow: 0px 0px 5px 5px black;
+ }
+ .info4{
+    color: black;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: -18em;
+    text-align: center;
+    margin-bottom: 25em;
+    font-size: 1.8em;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}  
+.info5{
+   color: black;
+   margin-left: 17em;
+   margin-right: 17em;
+   margin-top: -18em;
+   text-align: center;
+   margin-bottom: 25em;
+   font-size: 1.8em;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}  
+.info6{
+    color: black;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: -18em;
+    text-align: center;
+    margin-bottom: 25em;
+    font-size: 1.8em;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}  
+.info7{
+    color: black;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: -18em;
+    text-align: center;
+    margin-bottom: 25em;
+    font-size: 1.8em;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.info8{
+    color: black;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: -18em;
+    text-align: center;
+    margin-bottom: 25em;
+    font-size: 1.8em;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.card9{
+    background-color: purple;
+    width: 100%;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+    
+    .logo{
+        margin-left: 39%;
+        margin-bottom: 2%;
+  
+        
+      }
+  .next{
+      margin-left: 43.5em;
+      position: absolute;
+      bottom: 2.5%;
+      font-size: larger;
+      font-family: "comic sans ms";
+      font-weight: bold;
+      text-align: center;
+      color: black;
+      text-shadow: 7px 7px 7px 7px black;
+      background-color: purple;
+  }
+
+
+   
+
+    
+
